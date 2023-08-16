@@ -1,0 +1,20 @@
+package unidad1prog3;
+
+public class ejerciciovisualizacion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x=44;
+		int y=45;
+		
+		System.out.println( x++ );
+		System.out.println(x);
+		System.out.println(++x);
+		System.out.println(x);
+		System.out.println(--x);
+		System.out.println(x);
+		//System.out.println(x++ == --y);
+	}
+
+}
