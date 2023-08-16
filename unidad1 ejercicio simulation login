@@ -1,0 +1,28 @@
+package unidad1prog3;
+import java.util.Scanner;
+
+public class ejerciciosimulationdelogin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		final int contra = 1234;
+		
+		
+		
+		Scanner lector = new Scanner(System.in);
+		System.out.println("ingrese su contraseña;: ");
+		int numero = lector.nextInt();
+		
+		if(numero==contra)
+		{
+			System.out.println("contraseña correcta, ingresando");
+		}else
+		{
+			System.out.println("contraseña incorrecta, vuelva a intentarlo; ");
+		}
+	}
+	
+
+
+}
