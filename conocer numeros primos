@@ -1,0 +1,49 @@
+package unidad1;
+
+import java.util.Scanner;
+
+
+public class conocerprimo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num;
+		int divisor;
+		int contador=0;
+		Scanner lector = new Scanner(System.in);
+		System.out.println("ingrese un numero");
+		
+		System.out.println("numero ");
+		
+		num = lector.nextInt();
+		
+		divisor=num;
+		
+		/*if (num/num==1 || num/1==1 )
+		{
+			System.out.println("es primo");
+		}else
+		{
+			System.out.println("no es primo ");
+		}*/
+		
+		do
+		{
+			if(num % divisor==0)
+				contador++;
+			divisor--;
+		}while(divisor>0);
+		
+		if(contador>2)//si el contador es mas que 2 significa que se divide entre mas y por ende no es ´rimo
+		{
+			System.out.println("no es primo ");
+		}else
+		{
+			System.out.println("es primo ");
+		}
+		
+
+	}
+
+}
