@@ -1,0 +1,37 @@
+package unidad1prog3;
+
+import java.util.Scanner;
+
+public class numeroAlaPotencia {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num,pot,respuesta,ciclo=1;
+		Scanner lector = new Scanner(System.in);
+		System.out.println("ingrese un numero: ");
+		 num = lector.nextInt();
+		 System.out.println("ingrese la potencia a la que quiere poner: ");
+		 pot = lector.nextInt();//<   >
+		 
+		 for(int i=0; i<pot;i++) {
+			 if(pot==2) {
+				 respuesta=num*num;
+			 }else {
+				 respuesta=num*num;
+				 respuesta=respuesta*num;
+			 }
+			 System.out.println(respuesta);
+			 
+		 }
+			 
+			 
+			 
+			 
+			 
+		 
+		 
+		 
+
+	}
+
+}
